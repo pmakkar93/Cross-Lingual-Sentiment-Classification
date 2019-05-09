@@ -9,7 +9,7 @@ This project aim to create a sentiment classification model to be trained in one
 
 ## Datasets
 Amazon review datasets:
-* Book review dataset in [*data/amazon-data*](https://github.com/sunnymodi21/crosslingual-classification/tree/master/data/amazon-dataset)
+* Book review dataset in [*data/amazon-data*](https://github.com/pmakkar93/Cross-Lingual-Sentiment-Classification/tree/master/data/amazon-dataset)
 * 2000 for training and 2000 for testing
 * Rating used as labels for positve or negative sentiment
 
@@ -22,6 +22,8 @@ curl -o data/wiki.fr.vec https://dl.fbaipublicfiles.com/arrival/vectors/wiki.mul
 # German MUSE Wikipedia embeddings
 curl -o data/wiki.de.vec https://dl.fbaipublicfiles.com/arrival/vectors/wiki.multi.de.vec
 ```
+
+## After downloading word embeddings, keep them at the same path where your python file(.py) resides.
 
 ## Train and test classifier
 This project includes testing all language pair to i.e En-En, En-Fr, En-De ,Fr-Fr, Fr-En, Fr-De, De-De, De-En, De-Fr:
