@@ -23,8 +23,6 @@ curl -o data/wiki.fr.vec https://dl.fbaipublicfiles.com/arrival/vectors/wiki.mul
 curl -o data/wiki.de.vec https://dl.fbaipublicfiles.com/arrival/vectors/wiki.multi.de.vec
 ```
 
-## After downloading word embeddings, keep them at the same path where your python file(.py) resides.
-
 ## Train and test classifier
 This project includes testing all language pair to i.e En-En, En-Fr, En-De ,Fr-Fr, Fr-En, Fr-De, De-De, De-En, De-Fr:
 
